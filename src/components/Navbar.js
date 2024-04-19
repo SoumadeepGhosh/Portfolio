@@ -6,12 +6,12 @@ import logo from "../Assets/logo.png";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
-import { ImBlog } from "react-icons/im";
 import {
   AiFillStar,
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
+  AiOutlineContacts
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
@@ -81,7 +81,19 @@ function NavBar() {
                 Projects
               </Nav.Link>
             </Nav.Item>
-
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/contact"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineContacts
+                  style={{ marginBottom: "2px" }}
+                />{" "}
+                Contact Me
+              </Nav.Link>
+            </Nav.Item>
+          
             <Nav.Item>
               <Nav.Link
                 as={Link}
@@ -92,19 +104,9 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
-              <Nav.Link
-                href="https://soumyajitblogs.vercel.app/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <ImBlog style={{ marginBottom: "2px" }} /> Blogs
-              </Nav.Link>
-            </Nav.Item>
-
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/soumyajit4419/Portfolio"
+                href="https://github.com/SoumadeepGhosh/Portfolio"
                 target="_blank"
                 className="fork-btn-inner"
               >

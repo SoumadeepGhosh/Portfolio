@@ -5,7 +5,9 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  height: 2.4em 
 }
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -36,3 +38,69 @@
     transform: rotate(360deg);
   }
 }
+.ContactForm {
+  margin-top: 300px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.formInput {
+  height: 40px;
+}
+
+.errorMessage {
+  color: red;
+  font-size: 14px;
+}
+
+.submit-btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #4e0332;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.alert {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 300px;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.alert-danger {
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+  color: #721c24;
+}
+
+.alert-success {
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+  color: #155724;
+}
+
+
