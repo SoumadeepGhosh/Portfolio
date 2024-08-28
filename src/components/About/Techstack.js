@@ -6,16 +6,13 @@ import {
   DiNodejs,
   DiPython,
   DiJava,
-  DiRust,
   DiPostgresql
 } from "react-icons/di";
 import {
   SiGithub,
-  SiPhp,
   SiReact,
   SiMongodb,
   SiGit,
-  SiLaravel,
   SiJquery,
   SiExpress,
   SiMysql
@@ -33,13 +30,7 @@ function Techstack() {
         <DiJava />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiRust />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         < DiJavascript1/>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiReact />
@@ -52,12 +43,6 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiJquery />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiLaravel />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPhp />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiMongodb />
